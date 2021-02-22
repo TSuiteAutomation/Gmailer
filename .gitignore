@@ -1,0 +1,7 @@
+/node_modules
+/src/resources/temp
+/target
+*.html
+/.idea
+/.vscode
+/src/**/*.js

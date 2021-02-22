@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "es2018",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"inlineSourceMap": true,
+		"declaration": false,
+		"noImplicitAny": false,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"outDir": "src/resources/temp/jsfiles",
+		"baseUrl": "src", 
+"paths": { 
+"@app/*": ["../core/actions"], 
+"actions": ["../core/actions"],
+"lib": [ "es6", "dom" ],
+},
+	},
+	"exclude": [
+		"node_modules",
+		"src1",
+		"Specs",
+		"ReusableClasses",
+		"Repository"
+	]
+	//,	"SELENIUM_PROMISE_MANAGER": false
+}
